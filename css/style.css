@@ -11,9 +11,17 @@ body {
 }
 
 .pages-link {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  text-align: center;
+  display: block;
+}
+
+.pages-link a {
+  margin: 0 20px;
+  color: rgb(187, 37, 80);
+}
+
+.mailto {
+  color: rgb(201, 33, 11);
 }
 
 h1,
@@ -23,10 +31,8 @@ p {
 
 img {
   max-width: 35%;
-  display: flex;
-  justify-content: center;
-  height: auto;
+  display: block;
   text-align: center;
-  margin: 10px auto;
+  margin: 30px auto;
   border-radius: 10px;
 }
